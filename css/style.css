@@ -126,7 +126,7 @@ button a{
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 320px){
   body{
     font-size:12px;
   }
@@ -165,7 +165,7 @@ button a{
   }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 414px){
   body{
     font-size: 14px;
   }
