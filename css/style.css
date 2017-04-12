@@ -165,7 +165,7 @@ button a{
   }
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 500px){
   body{
     font-size: 14px;
   }
@@ -185,11 +185,11 @@ button a{
     margin: 0 auto;
   }
   #logo{
-    width:80%;
+    width:50%;
     height:auto;
   }
   #DAV-logo{
-    width:50%;
+    width:30%;
     height:auto;
   }
   .button{
