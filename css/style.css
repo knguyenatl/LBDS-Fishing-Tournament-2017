@@ -165,6 +165,38 @@ button a{
   }
 }
 
+@media only screen and (max-width: 550px){
+  body{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .main{
+    width: 55%;
+    height: auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 55%;
+    height:auto;
+    margin: 0 auto;
+  }
+  #logo{
+    width:80%;
+    height:auto;
+  }
+  #DAV-logo{
+    width:50%;
+    height:auto;
+  }
+  .button{
+    clear:both;
+    margin:0 auto;
+  }
+}
 @media only screen and (max-width: 768px){
   body{
     font-size: 14px;
