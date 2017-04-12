@@ -173,14 +173,14 @@ button a{
     font-size: 16px;
   }
   .main{
-    width: 100%;
+    width: 70%;
     height: auto;
     float:none;
     margin:0 auto;
   }
   .side{
     float:none;
-    width: 100%;
+    width: 70%;
     height:auto;
     margin: 15px auto;
   }
