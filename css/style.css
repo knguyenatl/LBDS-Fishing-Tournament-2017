@@ -1,0 +1,217 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  position:relative;
+  text-align: center;
+}
+
+#logo{
+  width:auto;
+  height:auto;
+  max-width:250px;
+  max-height:475px;
+}
+#DAV-logo{
+  width:auto;
+  height:auto;
+  max-width: 200px;
+  max-height: 75px;
+}
+button{
+  padding:5px;
+  margin:10px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 240px;
+  height:80px;
+}
+#links{
+  margin: 20px;
+}
+#lbds{
+  width:240px;
+  height:60px;
+  padding:5px;
+  margin:5px;
+}
+button a{
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  color:#b8b9bc;
+  font-size:25px;
+}
+h1{
+  text-align: center;
+  margin: 5px;
+  font-size: 30px;
+  color: #f0082f;
+}
+h3{
+  font-size: 20px;
+  margin:10px;
+  font-style: italic;
+}
+h4{
+  font-size: 15px;
+  margin: auto;
+  font-family:monospace;
+}
+span{
+  display: block;
+  margin: 15px;
+  font-size: 14px;
+}
+.main{
+  float:left;
+  width: 70%;
+  height: auto;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 15px;
+}
+.side{
+  float:right;
+  width: 23%;
+  height:auto;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius:15px;
+  text-align: center;
+}
+#title-bar, #maintitle{
+  background-image:url(../images/drops.png);
+  background-repeat: repeat-x;
+  background-position: left center;
+  border: 1px solid black;
+  text-align: center;
+  height: 50px;
+  margin: 5px;
+  border-radius: 15px;
+}
+p{
+  margin:10px;
+  padding:5px;
+}
+footer{
+  font-size:15px;
+  margin:10px 0px 5px 0px;
+  color: black;
+  text-align: center;
+  clear:both;
+}
+#RSVP{
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+button a{
+  color:black;
+}
+
+#copyright
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#kn{
+  font-size: 10px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 375px){
+  body{
+    font-size:12px;
+  }
+  .main{
+    width: 100%;
+    height:auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 10px auto;
+  }
+  h1{
+    font-size: 16px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  #logo{
+    width:50%;
+    height:auto;
+  }
+  #DAV-logo{
+    width:30%;
+    height:auto;
+  }
+  .button{
+    clear:both;
+    margin: 0 auto;
+  }
+  #title-bar, #maintitle{
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .main{
+    width: 100%;
+    height: auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 15px auto;
+  }
+  #logo{
+    width:80%;
+    height:auto;
+  }
+  #DAV-logo{
+    width:50%;
+    height:auto;
+  }
+  .button{
+    clear:both;
+    margin:0 auto;
+  }
+}
+
+@media only screen and (max-width:1280px){
+  .main{
+    width: 100%;
+    height: auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 20px auto;
+  }
+  button{
+    clear:both;
+  }
+}
