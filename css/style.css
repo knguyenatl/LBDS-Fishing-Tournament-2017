@@ -58,10 +58,16 @@ h3{
   font-style: italic;
 }
 #checkbox{
+  width: 250px;
   font-size: 15px;
-  margin: auto;
   font-family:monospace;
   text-align: left;
+  margin:0 auto;
+  display: block;
+}
+input{
+  vertical-align: middle;
+  position:relative;
 }
 span{
   display: block;
@@ -112,15 +118,10 @@ footer{
 button a{
   color:black;
 }
-
 #copyright
 {
   margin: 0 auto;
   text-align: center;
-}
-
-#kn{
-  font-size: 10px;
 }
 
 /*Media Queries*/
