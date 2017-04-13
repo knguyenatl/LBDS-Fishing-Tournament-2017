@@ -172,14 +172,14 @@ button a{
     font-size: 16px;
   }
   .main{
-    width: 55%;
+    width: auto;
     height: auto;
     float:none;
     margin:0 auto;
   }
   .side{
     float:none;
-    width: 55%;
+    width: auto;
     height:auto;
     margin: 0 auto;
   }
@@ -204,14 +204,14 @@ button a{
     font-size: 16px;
   }
   .main{
-    width: 70%;
+    width: auto;
     height: auto;
     float:none;
     margin:0 auto;
   }
   .side{
     float:none;
-    width: 70%;
+    width: auto;
     height:auto;
     margin: 0 auto;
   }
@@ -231,14 +231,14 @@ button a{
 
 @media only screen and (max-width:1280px){
   .main{
-    width: 80%;
+    width: auto;
     height: auto;
     float:none;
     margin:0 auto;
   }
   .side{
     float:none;
-    width: 80%;
+    width: auto;
     height:auto;
     margin: 10px auto;
   }
