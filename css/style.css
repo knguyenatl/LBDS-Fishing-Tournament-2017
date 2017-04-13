@@ -57,10 +57,11 @@ h3{
   margin:10px;
   font-style: italic;
 }
-h4{
+.checkbox{
   font-size: 15px;
   margin: auto;
   font-family:monospace;
+  text-align: left;
 }
 span{
   display: block;
