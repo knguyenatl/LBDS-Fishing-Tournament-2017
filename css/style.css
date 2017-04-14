@@ -122,9 +122,8 @@ button a{
   margin: 0 auto;
   text-align: center;
 }
-.red {
+#red {
   color:red;
-  font-size:13px;
 }
 .fishing{
   font-size:13px;
