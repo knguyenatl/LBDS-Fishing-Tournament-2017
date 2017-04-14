@@ -71,7 +71,7 @@ input{
 span{
   display: block;
   margin: 15px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .main{
   float:left;
@@ -124,7 +124,7 @@ button a{
 }
 .red {
   color:red;
-  font-size:14px;
+  font-size:13px;
 }
 
 /*Media Queries*/
